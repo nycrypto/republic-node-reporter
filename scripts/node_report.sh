@@ -72,7 +72,7 @@ crit_tail="$(tail -n 5 <<<"$crit_lines" || true)"
 fi
 fi
 
-now_local="$(date +\"%Y-%m-%d %H:%M:%S %Z\")"
+now_local="$(date +"%Y-%m-%d %H:%M:%S %Z")"
 
 cat <<EOF
 Node daily status — $now_local
